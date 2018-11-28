@@ -65,10 +65,4 @@ def ins():
     return [id,photo,dob,age,bpl,mgnera,name]
 
     
-
-
-def mnrega(nos_req):
-    eligible = Printer_specific('Daaa.db','test_village',[1])
-    rand = random.sample(range(len(eligible)),nos_req)
-    return([eligible[i] for i in rand])
     
